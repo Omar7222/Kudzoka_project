@@ -1,0 +1,426 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+   background-image: url('blue_bg.png');
+   width: 100%;
+    height:105vh;
+    min-height: 390px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.container .left-nav {
+    display: flex;
+}
+
+.left-nav img {
+    width: 150px;
+}
+
+.left-nav .Pic {
+    margin-top: 40px;
+   
+}
+.left-nav .Pic1 {
+    margin-top: 40px;
+text-decoration: 3px underline rebeccapurple;
+}
+.left-nav a  {
+    font-size: 20px;
+    margin: 10px;
+  text-decoration: none;
+  color: rgb(65, 154, 255);
+   background-color:color black; ;
+}
+.left-nav .banner {
+   margin-left: 535px;
+   margin-top: 00px;
+   padding: 30px;
+   position: relative;
+}
+.left-nav .banner1 {
+    position: absolute;
+    right: 170px;
+    bottom: 600px;
+}
+p{
+    color: black;
+    transition: all 0.2s ease;
+}
+/* nav-left */
+
+/* section one */
+ .background{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 100px;
+    position: relative;
+}
+.background .img1 .img2 {
+    position: absolute;
+    width: 700px;
+    right: px;
+}
+.background .img3 {
+    position: absolute;
+    right: 280px;
+    top: -20px;
+}
+
+.background .img4 {
+    position: absolute;
+    top: 390px;
+    width: 450px;
+    right: 180px;
+}
+.background .img5{
+    position: absolute;
+    width: 90%;
+    top: 500px;
+    left: -18%;
+}
+
+.boom {
+    color: #7a3d8a;
+}
+h3 {
+    font-size: 55px;
+    color: #637279;
+    position: absolute;
+    left: 105px;
+    top: 200px;
+}
+.boom2 {
+    font-size: 25px;
+    position: absolute;
+    left: 105px;
+    top: 275px;
+}
+.boom3{
+    font-size: 25px;
+    position: absolute;
+    left: 105px;
+    top: 310px;
+}
+
+ .boom2 {
+    color: #afafaf;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.boom3 {
+    color: #afafaf;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+/* section two */
+
+.middle-background {
+    position: relative;
+    width: 100%;
+}
+
+
+.middle-background .wire {
+   position: absolute;
+width: 105vh;
+left: 380px;
+top: 750px;
+}
+
+.middle-background .wire1 {
+    position: absolute;
+    top: 800px;
+    left: 250px;
+}
+.middle-background .wire2 {
+    position: absolute;
+    top: 900px;
+    left: 627px;
+}
+.middle-background .wire3 {
+    position: absolute;
+    top: 1110px;
+    left: 850px;
+}
+.middle-background .wirw11 {
+    font-size: 18px;
+    position: absolute;
+    top: 1005px;
+    left: 280px;
+}
+.middle-background .wire111 {
+    position: absolute;
+    top: 1040px;
+    left: 250px;
+    color: #6c5c5c;
+}
+.middle-background .wire1111 {
+    position: absolute;
+    top: 1055px;
+    left: 230px;
+    color: #6c5c5c;
+}
+.middle-background .wire22 {
+    font-size: 18px;
+    position: absolute;
+    top: 1100px;
+    left: 650px;
+}
+.middle-background .wire222 {
+    position: absolute;
+    top: 1135px;
+    left: 570px;
+    color: #6c5c5c;
+}
+.middle-background .wire2222 {
+    position: absolute;
+    top: 1150px;
+    left: 600px;
+    color: #6c5c5c;
+}
+.middle-background .wirw33 {
+    font-size: 18px;
+    position: absolute;
+    top: 1320px;
+    left: 960px;
+}
+.middle-background .wire333 {
+    position: absolute;
+    top: 1360px;
+    left: 900px;
+    color: #6c5c5c;
+}
+.middle-background .wire3333 {
+    position: absolute;
+    top: 1375px;
+    left: 890px;
+    color: #6c5c5c;
+}
+
+/* section three */
+
+.end-background {
+    position: relative;
+}
+
+.end-background .end1 {
+    position: absolute;
+    width: 300px;
+    top: 1160px;
+    left: 210px;
+}
+.end-background .end11 {
+    color: white;
+    position: absolute;
+    width: 300px;
+    top: 1250px;
+    left: 270px;
+}
+.end-background .end111 {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    width: 300px;
+    top: 1265px;
+    left: 270px;
+}
+.end-background .end2 {
+    position: absolute;
+    width: 170px;
+    top: 1500px;
+    left: 300px;
+}
+.end-background .end3 {
+    width: 380px;
+    position: absolute;
+    top: 1390px;
+    left: 560px;
+}
+.end-background .end4 {
+    width: 180px;
+    position: absolute;
+    top: 1505px;
+    right: 200px;
+}
+.end-background .arrow1 {
+    font-size: 20px;
+    position: absolute;
+    top: 1645px;
+    right: 450px;
+}
+.end-background .arrow2 {
+    font-size: 20px;
+    position: absolute;
+    top: 1645px;
+    right: 900px;
+}
+.end-background .font1 {
+    font-size: 25px;
+    position: absolute;
+    top: 1700px;
+    right: 600px;
+}
+.end-background .font2 {
+    font-size: 18px;
+    color: #6c5c5c;
+    position: absolute;
+    top: 1750px;
+    right: 620px;
+}
+.end-background .font3 {
+    font-size: 18px;
+    color: #6c5c5c;
+    position: absolute;
+    top: 1770px;
+    right: 615px;
+}
+.end-background .font4 {
+    font-size: 18px;
+    color: #6c5c5c;
+    position: absolute;
+    top: 1790px;
+    right: 655px;
+}
+/* footer */
+
+
+footer.finally {
+    position: relative;
+    display: flex;
+    background-image: url(Group\ 1131.png);
+    height: 100%;
+    width: 1790px;
+    top: 1600px;
+    right: 330px;
+    z-index: -1; 
+}
+
+.finally .poicture1 {
+    position: absolute;
+   width: 800px;
+    right: 100px;
+    top: 216px;
+}
+
+.finally .clone1 {
+    position: absolute;
+    top: 610px;
+    right: 1300px;
+    width: 36px;
+}
+.finally .clone2 {
+    position: absolute;
+    top: 610px;
+    right: 1240px;
+    width: 36px;
+}
+.finally .clone3 {
+    position: absolute;
+    top: 615px;
+    right: 1198px;
+    width: 20px;
+    color: azure;
+}
+.finally .end11 {
+    position: absolute;
+    top: 680px;
+    right: 1290px;
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+.finally .end22 {
+    position: absolute;
+    top: 680px;
+    right: 1150px;
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+.finally .end33 {
+    position: absolute;
+    top: 680px;
+    right: 1010px;
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+.finally .end44 { 
+    position: absolute;
+    top: 680px;
+    right: 870px;
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+.finally .ground {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 155px;
+    height: 60px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    top: 530px;
+    right: 1185px;
+}
+.finally .pico {
+    position: absolute;
+    left: 14px;
+    top: 13px;
+}
+
+.finally .ground1 {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 155px;
+    height: 60px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    top: 530px;
+    right: 1000px;
+}
+.finally .pico1 {
+    position: absolute;
+    left: 14px;
+    top: 13px;
+}
+.finally .pico11 {
+    font-size: 12px;
+    position: absolute;
+    top: 545px;
+    right: 1205px;
+}
+.finally .pico111 {
+    position: absolute;
+    top: 560px;
+    right: 1218px;
+}
+
+.finally .pico22 {
+    font-size: 12px;
+    position: absolute;
+    top: 545px;
+    right: 1016px; 
+}
+.finally .pico222 {
+    position: absolute;
+    top: 560px;
+    right: 1028px;
+}
+
+
+
+
+
